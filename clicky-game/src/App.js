@@ -10,6 +10,7 @@ class App extends Component {
 
     state = {
         characters
+        // score = 0
     };
 
     render() {
