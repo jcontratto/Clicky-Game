@@ -1,0 +1,52 @@
+[
+    {
+        "id":1,
+        "image": "/images/bender.png",
+        "name": "Bender"
+    },
+    {
+        "id":2,
+        "image": "/images/farnsworth.png",
+        "name": "Farnsworth"
+    },
+    {
+        "id":3,
+        "image": "/images/fry.png",
+        "name": "Fry"
+    },
+    {
+        "id":4,
+        "image": "/images/hermes.png",
+        "name": "Hermes"
+    },
+    {
+        "id":5,
+        "image": "/images/kif.png",
+        "name": "Kif"
+    },
+    {
+        "id":6,
+        "image": "/images/Leela2.png",
+        "name": "Leela"
+    },
+    {
+        "id":7,
+        "image": "/images/Nibbler2.png",
+        "name": "Nibbler"
+    },
+    {
+        "id":8,
+        "image": "/images/scruffy.png",
+        "name": "Scruffy"
+    },
+    {
+        "id":9,
+        "image": "/images/zap.png",
+        "name": "Zap"
+    },
+    {
+        "id":10,
+        "image": "/images/zoidberg.png",
+        "name": "Dr.Zoidberg"
+    }
+]

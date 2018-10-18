@@ -1,0 +1,9 @@
+/* For main background image */
+.wrapper {
+  background: url(./images/background.jpg) no-repeat fixed center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+ 
