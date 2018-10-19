@@ -10,7 +10,11 @@ class App extends Component {
 
     state = {
         characters
-        // score = 0
+        // count = 0
+    };
+
+    handleCounter =() => {
+        this.setState({ count: this.state.count +1});
     };
 
     render() {
