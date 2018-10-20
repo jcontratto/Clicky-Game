@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
-
 import './App.css';
 
 class App extends Component {
@@ -12,11 +11,14 @@ class App extends Component {
     state = {
         characters,
         score: 0,
-        
+        counter: 0,
+        charactersClicked: []
     };
 
-    handleCounter = () => {
-        this.setState({ count: this.state.count + 1 });
+    handleClick = () => {
+        this.setState(({ count }) => ({
+            count: count + 1
+        }));
     };
 
     render() {
@@ -27,6 +29,7 @@ class App extends Component {
                     <Header>Futurama Clicky Game</Header>
                     {this.state.characters.map(character => (
                         <Card
+                            charactersClicked={this.imageClick}
                             id={character.id}
                             key={character.id}
                             name={character.name}

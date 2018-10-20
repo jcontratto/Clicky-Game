@@ -4,12 +4,15 @@ import "./Navbar.css";
 const Navbar = props => {
     console.log('props ', props)
     return (
-<nav className="navbar fixed-top navbar-light bg-light">
-<ul>
-    <li className="top">Game</li>
-   <li className="top">Score: {props.score}</li>
-</ul>
-</nav>
+        <div>
+            <nav className="navbar fixed-top navbar-light bg-light">
+                <ul>
+                    <li className="top-left">Score: {props.score}</li>
+                    <li className="top-right">Counter: {props.score}</li>
+                </ul>
+            </nav>
+            <h1 className="title">{props.children}</h1>
+        </div>
     )
 }
 export default Navbar;
