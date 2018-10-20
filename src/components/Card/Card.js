@@ -3,7 +3,7 @@ import "./Card.css";
 
 const Card = props => (
     <div className="card" onClick={props.images}>
-        <div className="img-container">
+        <div className="img-container" onClick={() => props.imageClick(props.id)}>
             <img alt={props.name} src={props.image} />
         </div>
         <div className="content">
@@ -12,8 +12,7 @@ const Card = props => (
                 </li>
             </ul>
         </div>
-        <span onClick={()=> props.imageClick(props.id)} className="imageClick"></span>
-    </div>
+ </div>
 );
 
 export default Card;
