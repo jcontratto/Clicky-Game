@@ -1,0 +1,11 @@
+   
+.navbar {
+    background: orangered !important;
+    font-family: 'Coiny', cursive, serif;
+    font-size: 40px;
+}
+
+.navbar li {
+    text-align: center;
+    display: inline-block;
+}

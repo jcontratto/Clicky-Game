@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import Wrapper from "./components/Wrapper";
@@ -9,27 +9,31 @@ import './App.css';
 class App extends Component {
 
     state = {
-        characters
-        // count = 0
+        characters,
+        score: 0,
+        
     };
 
-    handleCounter =() => {
-        this.setState({ count: this.state.count +1});
+    handleCounter = () => {
+        this.setState({ count: this.state.count + 1 });
     };
 
     render() {
         return (
-            <Wrapper>
-                <Header>Futurama Clicky Game</Header>
-                {this.state.characters.map(character => (
-                    <Card
-                        id={character.id}
-                        key={character.id}
-                        name={character.name}
-                        image={character.image}
-                    />
-                ))}
-            </Wrapper>
+            <div>
+                <Navbar score={this.state.score} />
+                <Wrapper>
+                    <Header>Futurama Clicky Game</Header>
+                    {this.state.characters.map(character => (
+                        <Card
+                            id={character.id}
+                            key={character.id}
+                            name={character.name}
+                            image={character.image}
+                        />
+                    ))}
+                </Wrapper>
+            </div>
         );
     }
 }
