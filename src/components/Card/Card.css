@@ -1,11 +1,10 @@
 .card {
-    /* background: #fff; */
-    /* border-radius: 2px; */
-    height: 400px;
+    background: orangered;
+    border-radius: 2px;
+    height: 350px;
     width: 200px;
-    margin: 10px 25px;
+    margin: 15px 30px;
     position: relative;
-    /* box-shadow: 0 3px 6px #999, 0 3px 6px #999; */
     text-align: left;
   }
   
@@ -14,11 +13,10 @@
     overflow: hidden;
     text-align: center;
     padding: auto;
-    background:orangered;
-    
+   
   }
   .card > .img-container > img {
-    width: 200px;
+    width: 150px;
     height: 90%;
     margin: auto;
   }
@@ -27,6 +25,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 15px;
+    background: white;
   }
   
   .card > .content > ul {
@@ -39,7 +38,3 @@
     font-family: 'Coiny', cursive, serif;
   }
   
-  
-  /* .card > .remove:hover {
-    color: #d50000;
-  } */
