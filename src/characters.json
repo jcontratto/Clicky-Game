@@ -48,5 +48,11 @@
         "id":10,
         "image": "/images/zoidberg.png",
         "name": "Dr.Zoidberg"
+    },
+    {
+        "id":11,
+        "image": "/images/Mom.png",
+        "name": "Mom"
     }
+  
 ]

@@ -36,7 +36,7 @@ class App extends Component {
                 score = score + 1
                 counter = 0
                 charactersClicked = [];
-                //Alert when you win game win all 10 images are clicked
+                //Alert when you win game 
                 alert("Bite my shiny metal...You're smarter than the Professor!");
             }
             //Shuffles everytime a click happens

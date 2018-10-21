@@ -9,9 +9,9 @@ const Card = props => (
         <div className="content">
             <ul>
                 <li> {props.name} </li>
-                </ul>
+            </ul>
         </div>
-        </div>
-        );
-        
+    </div>
+);
+
 export default Card;
