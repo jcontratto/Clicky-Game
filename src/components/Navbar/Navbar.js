@@ -7,12 +7,17 @@ const Navbar = props => {
         <div>
             <nav className="navbar fixed-top navbar-light bg-light">
                 <ul>
-                    <li className="top-left">Score: {props.score}</li>
-                    <li className="top-right">Counter: {props.score}</li>
+                    <li className="scoring">Score: {props.score}</li>
+                </ul>
+                <ul>
+                    <li className="header">Futurama Clicky-Game{}</li>
+                </ul>
+                <ul>
+                    <li className="counting">Counter: {props.counter}</li>
                 </ul>
             </nav>
-            <h1 className="title">{props.children}</h1>
         </div>
     )
 }
+
 export default Navbar;

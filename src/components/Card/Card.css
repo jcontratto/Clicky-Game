@@ -1,8 +1,8 @@
 .card {
     background: orangered;
-    border-radius: 2px;
+    border-radius: 70px;
     height: 350px;
-    width: 200px;
+    width: 250px;
     margin: 20px;
     position: relative;
     text-align: left;
@@ -22,10 +22,12 @@
   }
   
   .card > .content {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    font-size: 15px;
+    /* padding-left: 1rem; */
+    padding-right: 40px;
+    font-size: 26px;
     background: white;
+    font-family: 'Coiny', cursive, serif;
+    text-align: center;
   }
   
   .card > .content > ul {

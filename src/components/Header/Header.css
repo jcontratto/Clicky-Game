@@ -1,9 +1,11 @@
 .title {
     width: 100%;
     text-align: center;
-    font-size: 3rem;
-    text-decoration: underline;
-    color: turquoise;
+    font-size: 44px;
+    color: orangered;
+    background-color: rgb(26, 75, 70);
     font-family: 'Coiny', cursive, serif;
-    margin-bottom: 70px;
+    margin-bottom: 30px;
   }
+
+ 

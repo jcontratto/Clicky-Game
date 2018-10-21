@@ -1,9 +1,8 @@
-   
 .navbar {
     background: orangered !important;
     font-family: 'Coiny', cursive, serif;
-    font-size: 40px;
-    padding: .5px;
+    font-size: 50px;
+    padding: 2px;
 }
 
 .navbar li {
@@ -11,6 +10,15 @@
     display: inline-block;
 }
 
-/* .top-right {
-    width: 10%;
-} */
+.scoring {
+   margin-left: 100px;
+}
+
+.counting {
+    margin-right: 100px;
+} 
+
+.header {
+    text-decoration: underline;
+    font-size: 72px;
+}
