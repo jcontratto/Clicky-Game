@@ -1,6 +1,6 @@
 .navbar {
     background: orangered !important;
-    font-family: 'Coiny', cursive, serif;
+    font-family: fantasy;
     font-size: 47px;
     padding: 2px;
 }
@@ -19,8 +19,8 @@
     margin-right: 100px;
     text-decoration: underline;
 } 
-
+/* 
 .header {
     font-size: 72px;
     color: rgb(16, 77, 70);
-}
+} */
